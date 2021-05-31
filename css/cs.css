@@ -1,0 +1,427 @@
+.nb{
+    font:bold;
+    font-size:30px;
+}
+
+.c{
+color:red;
+font-weight:bolder;
+
+
+}
+.animate{
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    -ms-animation-duration: 0.3s;
+
+}
+.ko .row:nth-child(1).col-md-4:nth-child(1).animataion
+{
+    animation-delay: 0;
+    -webkit-animation-delay: 0;
+    -ms-animation-delay:0;
+    -moz-animation-delay: 0;
+    -o-animation-delay: 0;
+}
+.ko .row:nth-child(1).col-md-4:nth-child(2).animataion
+{
+    animation-delay: 0.3;
+    -webkit-animation-delay: 0.3;
+    -ms-animation-delay:0.3;
+    -moz-animation-delay: 0.3;
+    -o-animation-delay: 0.3;
+}
+.ko .row:nth-child(1).col-md-4:nth-child(3).animataion
+{
+    animation-delay: 0.6;
+    -webkit-animation-delay: 0.6;
+    -ms-animation-delay:0.6;
+    -moz-animation-delay: 0.6;
+    -o-animation-delay: 0.6;
+}
+.bi{
+   
+    transition:all 0.3s ease-in;
+    -webkit-transition:all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+
+    
+
+}
+.bi:hover{
+    transform:rotateY(90deg);
+    -moz-transform:rotateY(90deg);
+    -o-transform:rotateY(90deg);
+    transform:scale(1.2,1.2);
+
+}
+
+    
+html{
+    scroll-behavior: smooth;
+}
+.con{
+height:400px;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size:14px;
+    background: url('image/rvitlogo.jpg');
+    color:white;
+    
+}
+.p{
+    background-color: #e9a02e;
+    color:#fff
+}
+.p .inner-content{
+    position: relative;
+    width: 265px;
+    height:225px;
+}
+.bb{
+    transition:all 0.3s ease-in;
+    -webkit-transition:all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    animation-delay: 0.3;
+    -webkit-animation-delay: 0.3;
+    -ms-animation-delay:0.3;
+    -moz-animation-delay: 0.3;
+    -o-animation-delay: 0.3;
+}
+
+.p .inner-content .overlay-content{
+    position: absolute;
+    top: 40px;
+   
+    left:0px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 0px;
+    transition:all 0.3s ease-in;
+    -webkit-transition:all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+
+    
+
+}
+.inner-content .overlay-content a{
+    display:none;
+    text-decoration: none;  
+}
+.inner-content .overlay-content h5{
+    padding-top: 40px;
+    color:#e74c3c;
+    display:none;
+    font-weight: bolder;
+}
+.inner-content:hover .overlay-content h5,.inner-content:hover .overlay-content a{
+    display:block;
+}
+.inner-content:hover .overlay-content{
+    top:0px;
+  height:100%;
+    display: block;
+   
+    
+}
+.osw{
+    color:white;
+    background-color: #e9a02e;
+    text-align:center;
+    font-weight: bold;
+    padding:30px;
+    width:100%;
+    height:100%;
+}
+.os{
+    padding:40px;
+    text-align:center;
+    color:black;
+}
+.ce{
+    text-align:center;
+    color:black;
+    height:200px;
+    
+
+    
+}
+.row{
+    padding-left:10px;
+}
+.imgg{
+   background:brown; 
+   
+   
+    
+}
+.team{
+    padding:20px;
+}
+.tsw{
+    color:black;
+    background-color:white;
+    text-align:center;
+    font-weight: bold;
+    padding:30px;
+    width:100%;
+    height:100%;
+}
+.cs{
+   text-align:center;
+   margin-top:90px;
+    font-weight:bold;
+    height:300px;
+   color:white;
+   
+   
+}
+#sec{
+    color:red;
+    font-weight:bold;
+}
+*{
+margin:0;
+padding:0;
+}
+
+.navlink.hover{
+    color:red;
+}
+body{
+    background-color:white;
+}
+.t .team-content{
+    position: relative;
+    width: 265px;
+    height:225px;
+}
+.t{
+    background-color:white;
+    color:black
+}
+
+.t .team-content .overlay-content{
+    position: absolute;
+    top: 0px;
+   
+    left:0px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 0px;
+    transition:all 0.3s ease-in;
+    -webkit-transition:all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+
+    
+
+}
+.team-content .overlay-content a{
+    display:none;
+    text-decoration: none;  
+}
+.team-content .overlay-content h6{
+    
+    color:#e74c3c;
+    display:none;
+    font-weight: bolder; 
+}
+.team-content .overlay-content h5{
+    padding-top: 40px;
+    color:#e74c3c;
+    display:none;
+    font-weight: bolder;
+}
+.team-content:hover .overlay-content h5,.team-content:hover .overlay-content a,.team-content:hover .overlay-content h6{
+    display:block;
+}
+.team-content:hover .overlay-content{
+    top:0px;
+    
+  height:100%;
+    display: block;
+   
+    
+}
+.team-content .overlay-content li{
+    text-decoration: none;
+    display: inline-block;
+    
+    size:7x;
+    display:none;
+    
+    
+}
+.team-content .overlay-content li .fa-facebook{
+    background-color: blue;
+    size:7x;
+}
+.team-content .overlay-content li .fa-instagram{
+    background-color: orangered;
+    size:7x;
+}
+.team-content .overlay-content li .fa-linkedin{
+    background-color: skyblue;
+    size:7x;
+}
+.team-content:hover .overlay-content .sl li{
+    display: inline-block;
+    color:#fff;
+    width: 70px;
+    height: 50px;
+    line-height: 28px;
+    
+    
+    
+
+}
+.port{
+    background: url('image\jeff.jpg');
+}
+.para{
+    border:none;
+   
+    text-align: center;
+    font-weight: bold;
+    padding-bottom:60px;
+    line-height: 5mm;
+    
+    
+}
+.black{
+    color:black;
+}
+.icon{
+    font-size: 32px;
+    
+    
+}
+.ctest{
+  padding:30px;
+   
+    text-align: center;
+    background-color: #007bb6;
+    color:white;
+}
+.ti{
+    padding:20px;
+    width: 300px;
+    height: 250px;
+    border-radius: 50px;
+}
+.oc{
+    color:white;
+}
+.bb{
+    text-align: center;
+    color: black;
+    padding:30px;
+}
+.bc{
+    color:black;
+    text-align: center;
+    padding:0px;
+}
+.bi img{
+    width:300px;
+    height:200px;
+}
+.bp img{
+    width:300px;
+    height:200px;
+}
+.bs{
+width:200px;
+height: 250px;
+}
+.cont{
+    padding:20px;
+    background-color: #39787c;
+    color: #fff;
+    
+    background-attachment: fixed;
+    
+}
+.bf{
+    padding: 20px;
+}
+.so li{
+    color:black;
+    text-decoration: none;
+    font-size: 24px;
+    display: inline-block;
+    background-color:white;
+    padding:5px;
+}
+@media screen and (max-width:992px){
+
+    .t .team-content{
+    position: relative;
+    width: 150px;
+    height:200px;
+}
+
+
+.team-content:hover .overlay-content .sl li{
+    display: inline-flexbox;
+    color:#fff;
+    width: 25px;
+    height: 50px;
+    line-height: 1px;
+    
+    
+    
+
+}
+.p .inner-content{
+    position: relative;
+    width: 150px;
+    height:200px;
+}
+.bi:hover{
+    transform:none;
+    
+
+}
+}
+@media screen and (max-width:667px){
+
+    .t .team-content{
+    position: relative;
+    width: 250px;
+    height:300px;
+    font-size: large;
+}
+.bi:hover{
+    transform:none;
+    
+
+}
+
+
+.team-content:hover .overlay-content .sl li{
+    display: inline-flexbox;
+    color:#fff;
+    width: 50px;
+    height: 70px;
+    line-height: 2px;
+    font-size: 50px;
+    
+    
+    
+
+}
+.p .inner-content{
+    position: relative;
+    width: 250px;
+    height:300px;
+}
+}
+
